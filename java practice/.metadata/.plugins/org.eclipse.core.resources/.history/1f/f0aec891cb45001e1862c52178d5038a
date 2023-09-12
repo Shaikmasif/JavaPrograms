@@ -1,0 +1,8 @@
+
+public class CaseConverter {
+	void caseConvert(Sting s)
+	{
+		for(int i=0;)
+	}
+
+}

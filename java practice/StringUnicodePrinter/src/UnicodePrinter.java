@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class UnicodePrinter {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the string to print the unicode value of every character...");
+		String s=scan.nextLine();
+		char ch[]=s.toCharArray();
+		SYSO
+		for(int i=0;i<=ch.length-1;i++)
+		{
+			System.out.print((int)ch[i]+",");
+		}
+	}
+
+}

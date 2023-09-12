@@ -1,0 +1,47 @@
+package com.kodnest.training.strings.level3;
+import java.util.*;
+public class FrequencyOfLetters {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the string to count the occurence of each letter...");
+		String string=scan.nextLine();
+		reverse(string);
+		
+	}
+	public static String reverse(String s)
+	{
+		char nodup[]=remove(s);
+		for(int i=0;i<=nodup.length-1;i++)
+		{
+			int res=count(nodup[i],s);
+			System.out.println(nodup[i]+"----->"+res);
+		}
+		
+		return null;
+	}
+	public static char[] remove(String s)
+	{
+		String s2="";
+		for(int i=0;i<=s.length()-1;i++)
+		{
+			if(!s2.contains(String.valueOf(s.charAt(i))))
+			{
+				s2=s2+s.charAt(i);
+			}	
+		}
+		char ch[]=s2.toCharArray();
+		return ch;
+	}
+	public static int count(int element,String s)
+	{
+		int count=0;
+		for(int i=0;i<=s.length()-1;i++)
+		{
+			if(element==s.charAt(i))
+			{
+				count++;
+			}
+		}
+		return count;
+	}
+}

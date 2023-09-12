@@ -1,0 +1,17 @@
+
+public class StringSubstring {
+	void substring(String s)
+	{
+		String s2="";
+		for(int i=0;i<=s.length()-1;i++)
+		{
+			int temp=0;
+			for(int j=i;j<=s.length()-1;j++)
+			{
+				temp=temp+s.charAt(j);
+				System.out.println(temp);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class ReverseWordsUsingMutable {
+	String reverseString(String s)
+	{
+		StringBuffer rev=new StringBuffer();
+		String[] str=s.split(s);
+		for(int i=0;i<=str.length-1;i++)
+		{
+		StringBuffer s1=new StringBuffer(str[i]);
+		rev.append(s1.reverse());
+		}
+		return new String(rev);
+	}
+
+}

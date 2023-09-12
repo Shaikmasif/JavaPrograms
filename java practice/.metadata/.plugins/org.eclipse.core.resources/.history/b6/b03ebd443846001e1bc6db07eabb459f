@@ -1,0 +1,36 @@
+
+public class ReverseStringPreserveSpaces {
+	String reverseString(String s)
+	{
+		char arr[]=s.toCharArray();
+		char rev[]=new char[arr.length];
+		for(int i=0;i<=arr.length-1;i++)
+		{
+			if(arr[i]==' ')
+			{
+				rev[i]=arr[i];
+			}
+		}
+		int j=rev.length-1;
+		for(int i=0;i<=arr.length-1;i++)
+		{
+			if(arr[i]!=' ' && rev[j]!=' ')
+			{
+				rev[j]=arr[i];
+				j--;
+			}
+			else if(arr[i]!=' ' && rev[j]==' ')
+			{
+				j--;
+				rev[j]=arr[i];
+			}
+			else if(arr[i]==' ' && rev[j]!=' ')
+			{
+				i++;
+				rev[j]=arr[i];
+			}
+		}
+		return new String(rev);
+	}
+
+}

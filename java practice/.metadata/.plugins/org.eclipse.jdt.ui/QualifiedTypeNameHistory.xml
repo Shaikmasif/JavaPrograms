@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="BubbleSort"/>
+    <fullyQualifiedTypeName name="BubbleSortDesc"/>
+    <fullyQualifiedTypeName name="SelectionSort"/>
+    <fullyQualifiedTypeName name="SelectionSortApplicationDesc"/>
+    <fullyQualifiedTypeName name="SelectionSortDesc"/>
+    <fullyQualifiedTypeName name="InsertionSort"/>
+    <fullyQualifiedTypeName name="BinarySearch"/>
+    <fullyQualifiedTypeName name="SearchingAndSortingTechniques"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="practice1.ReverseWordsOfString"/>
+    <fullyQualifiedTypeName name="HarshadNumber"/>
+    <fullyQualifiedTypeName name="AbundantNumber"/>
+    <fullyQualifiedTypeName name="ArmstrongNumber"/>
+    <fullyQualifiedTypeName name="StrongNumber"/>
+    <fullyQualifiedTypeName name="AutomorphicNumber"/>
+    <fullyQualifiedTypeName name="UpperLowerCounter"/>
+    <fullyQualifiedTypeName name="UpperToLower"/>
+    <fullyQualifiedTypeName name="LowerToUpper"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="CaseConverter"/>
+    <fullyQualifiedTypeName name="ReverseStringPreserveSpaces"/>
+    <fullyQualifiedTypeName name="ReverseWordsOfString"/>
+    <fullyQualifiedTypeName name="ReverseWordsUsingMutable"/>
+    <fullyQualifiedTypeName name="RemoveDuplicatesInString"/>
+    <fullyQualifiedTypeName name="Replace99String"/>
+    <fullyQualifiedTypeName name="StringSubstring"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.kodnest.training.strings.level3.Anagram2"/>
+</qualifiedTypeNameHistroy>
